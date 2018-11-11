@@ -66,7 +66,5 @@ Edit the `config.yaml` file accordingly
 ```
 sudo pip3.6 install matplotlib
 sudo pip3.6 install pandas
-
-
 ```
 
