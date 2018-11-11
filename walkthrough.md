@@ -26,8 +26,7 @@ git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
 cd python-telegram-bot
 git submodule update --init --recursive
 sudo pip install -r requirements.txt
-python setup.py install
-sudo pip install matplotlib
+sudo python setup.py install
 ```
 
 ## Installing Python-pip3.6
@@ -38,11 +37,10 @@ sudo apt-get install build-essential tk-dev libncurses5-dev libncursesw5-dev lib
 ```
 ```
 wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
-tar xf Python-3.6.5.tar.xz
-cd Python-3.6.5
-./configure
-make
-sudo make altinstall
+tar xf Python-3.6.5.tar.xz ; cd Python-3.6.5
+./configure ; make ; sudo make altinstall
+
+cd ; rm Python-3.6.5.tar.xz
 ```
 
 ## Installing Natalia-Telegram-Bot
@@ -51,8 +49,7 @@ sudo make altinstall
 sudo apt-get update
 sudo apt-get install mongodb libjpeg-dev zlib1g-dev
 git clone https://github.com/Whalepool/Natalia.git
-cd Natalia/
-sudo pip3.6 install -r requirements.pip
+cd Natalia/ ; sudo pip3.6 install -r requirements.pip
 ```
 #### Setup Config File
 ```
