@@ -49,10 +49,9 @@ sudo make altinstall
 * [Natalia-Telegram-Bot](https://github.com/Whalepool/Natalia)   
 ```
 sudo apt-get update
-sudo apt-get install mongodb
-sudo pip install matplotlib
+sudo apt-get install mongodb libjpeg-dev zlib1g-dev
 git clone https://github.com/Whalepool/Natalia.git
-cd Natalia
+cd Natalia/
 sudo pip3.6 install -r requirements.pip
 ```
 #### Setup Config File
@@ -64,6 +63,7 @@ Edit the `config.yaml` file accordingly
 @jsondumpbot - Telegram JSON data dump for API
 
 ```
-sudo pip3.6 install matplotlib pandas requests telegram pyyaml pillow
+sudo apt-get install 
+sudo pip3.6 install matplotlib pandas requests telegram pyyaml pillow wordcloud 
 ```
 
