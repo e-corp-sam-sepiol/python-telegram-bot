@@ -64,6 +64,6 @@ Edit the `config.yaml` file accordingly
 @jsondumpbot - Telegram JSON data dump for API
 
 ```
-sudo pip3.6 install matplotlib pandas requests telegram pyyaml
+sudo pip3.6 install matplotlib pandas requests telegram pyyaml pillow
 ```
 
