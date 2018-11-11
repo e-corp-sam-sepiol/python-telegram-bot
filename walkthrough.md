@@ -63,7 +63,7 @@ Edit the `config.yaml` file accordingly
 @jsondumpbot - Telegram JSON data dump for API
 
 ```
-sudo apt-get install 
+sudo apt-get update 
 sudo pip3.6 install matplotlib pandas requests telegram pyyaml pillow wordcloud 
 ```
 
