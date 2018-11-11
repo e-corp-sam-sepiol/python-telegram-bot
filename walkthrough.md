@@ -1,3 +1,24 @@
+## Installing matterbridge
+* [Installing matterbridge](https://github.com/42wim/matterbridge#installing)
+
+Make sure that `Go 1.8+` is installed and your `$GOPATH` is set
+```
+cd ; mkdir matterbridge ; cd matterbridge/
+wget https://github.com/42wim/matterbridge/releases/download/v1.11.3/matterbridge-linux-arm
+chmod +x matterbridge-linux-arm
+nano matterbridge.toml
+```
+
+```
+Input settings into matterbridge.toml
+```
+
+Run matterbridge
+```
+./matterbridge-linux-arm &
+```
+
+
 ## Installing python-telegram-bot
 * [Installing python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot#installing)   
 ```
