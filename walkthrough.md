@@ -69,10 +69,6 @@ cd ta-lib/ ; ./configure --prefix=/usr ; make ; sudo make install
 ```
 
 ```
-sudo pip3.6 install TA-Lib
-```
-
-```
-sudo pip3.6 install matplotlib pandas requests telegram pyyaml pillow wordcloud
+sudo pip3.6 install TA-Lib matplotlib pandas requests telegram pyyaml pillow wordcloud
 ```
 
