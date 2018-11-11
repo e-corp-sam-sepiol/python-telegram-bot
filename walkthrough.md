@@ -49,6 +49,12 @@ sudo apt-get install mongodb libjpeg-dev zlib1g-dev
 git clone https://github.com/Whalepool/Natalia.git
 cd Natalia/ ; sudo pip3.6 install -r requirements.pip
 ```
+#### Upgrade MongoDB
+```
+curl -O http://downloads.mongodb.org/linux/mongodb-linux-x86_64-2.6.1.tgz
+tar -zxvf mongodb-linux-x86_64-2.6.1.tgz
+./mongodb-linux-x86_64-2.6.1/bin/mongo
+
 #### Setup Config File
 ```
 cp config.sample.yaml config.yaml
