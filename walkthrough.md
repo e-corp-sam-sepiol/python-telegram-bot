@@ -39,6 +39,7 @@ sudo pip3.6 install -r requirements.pip
 cp config.sample.yaml config.yaml
 ```
 Edit the `config.yaml` file accordingly
+
 @jsondumpbot - Telegram JSON data dump for API
 
 ```
