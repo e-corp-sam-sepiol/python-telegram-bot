@@ -40,3 +40,11 @@ cp config.sample.yaml config.yaml
 ```
 Edit the `config.yaml` file accordingly
 @jsondumpbot - Telegram JSON data dump for API
+
+```
+sudo pip3.6 install matplotlib
+sudo pip3.6 install pandas
+
+
+```
+
