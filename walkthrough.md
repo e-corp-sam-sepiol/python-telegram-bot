@@ -62,6 +62,8 @@ Edit the `config.yaml` file accordingly
 
 @jsondumpbot - Telegram JSON data dump for API
 
+##### Installing TA-Lib
+* [Installing TA-Lib](https://mrjbq7.github.io/ta-lib/install.html)
 ```
 cd
 wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
@@ -73,9 +75,7 @@ make
 sudo make install
 ```
 
-
 ```
-sudo apt-get update 
 sudo pip3.6 install matplotlib pandas requests telegram pyyaml pillow wordcloud
 ```
 
