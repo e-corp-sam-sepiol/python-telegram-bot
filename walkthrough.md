@@ -34,7 +34,7 @@ git clone https://github.com/Whalepool/Natalia.git
 cd Natalia
 sudo pip3.6 install -r requirements.pip
 ```
-### Setup Config File
+#### Setup Config File
 ```
 cp config.sample.yaml config.yaml
 ```
