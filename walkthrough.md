@@ -60,7 +60,7 @@ cp config.sample.yaml config.yaml
 ```
 Edit the `config.yaml` file accordingly
 
-@jsondumpbot - Telegram JSON data dump for API
+**@jsondumpbot - Telegram JSON data dump for API**
 
 ##### Installing TA-Lib
 * [Installing TA-Lib](https://mrjbq7.github.io/ta-lib/install.html)
