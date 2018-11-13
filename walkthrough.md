@@ -40,39 +40,3 @@ tar xf Python-3.6.5.tar.xz ; cd Python-3.6.5 ; ./configure ; make ; sudo make al
 
 cd ; rm Python-3.6.5.tar.xz
 ```
-
-## Installing Natalia-Telegram-Bot
-* [Natalia-Telegram-Bot](https://github.com/Whalepool/Natalia)   
-```
-sudo apt-get update
-sudo apt-get install mongodb libjpeg-dev zlib1g-dev
-git clone https://github.com/Whalepool/Natalia.git
-cd Natalia/ ; sudo pip3.6 install -r requirements.pip
-```
-#### Upgrade MongoDB
-```
-curl -O http://downloads.mongodb.org/linux/mongodb-linux-x86_64-2.6.1.tgz
-tar -zxvf mongodb-linux-x86_64-2.6.1.tgz
-./mongodb-linux-x86_64-2.6.1/bin/mongo
-
-#### Setup Config File
-```
-cp config.sample.yaml config.yaml
-```
-Edit the `config.yaml` file accordingly
-
-**@jsondumpbot - Telegram JSON data dump for API**
-
-##### Installing TA-Lib
-* [Installing TA-Lib](https://mrjbq7.github.io/ta-lib/install.html)
-```
-cd ; wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
-tar -xvzf ta-lib-0.4.0-src.tar.gz
-
-cd ta-lib/ ; ./configure --prefix=/usr ; make ; sudo make install
-```
-
-```
-sudo pip3.6 install TA-Lib matplotlib pandas requests telegram pyyaml pillow wordcloud
-```
-
